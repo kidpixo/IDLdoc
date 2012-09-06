@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+<key>CFBundleIdentifier</key>
+<string>idldoc</string>
+<key>CFBundleName</key>
+<string>idldoc</string>
+<key>DocSetPlatformFamily</key>
+<string>idldoc</string>
+<key>isDashDocset</key><true/>
+<key>dashIndexFilePath</key>
+<string>index.html</string>
+</dict>
+</plist>
+
