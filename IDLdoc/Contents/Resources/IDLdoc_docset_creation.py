@@ -5,7 +5,10 @@ import BeautifulSoup
 import glob
 
 #document to erase
-deletelist =[ "./Documents/all-dirs.html","./Documents/all-files.html","./Documents/idldoc-index.html","./Documents/index.html","./Documents/search.html","./Documents/categories.html","./Documents/dir-files.html" ,"./Documents/libdata.js"]+glob.glob('./Documents/*/dir-overview.html')
+deletelist =[ "./Documents/all-dirs.html","./Documents/all-files.html",
+             "./Documents/idldoc-index.html","./Documents/index.html",
+             "./Documents/search.html","./Documents/categories.html",
+             "./Documents/dir-files.html" ,"./Documents/libdata.js"]+glob.glob('./Documents/*/dir-overview.html')
 for f in deletelist:
     if os.path.isfile(f):
        os.remove(f)

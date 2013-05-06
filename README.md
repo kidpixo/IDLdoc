@@ -1,7 +1,7 @@
 To translate an existing IDLdoc (<http://idldoc.idldev.com/>) documentation follow this steps: 
 
 1. build the directories structure as described in <http://kapeli.com/docsets/> or use the empty `IDLdoc` structure here. 
-2. copy you documentation in `IDLdoc/Contents/Resources/Documents/ `
+2. copy your documentation in `IDLdoc/Contents/Resources/Documents/ `
 3. run the `IDLdoc_docset_creation.py` in the `IDLdoc/Contents/Resources/` directory 
 4. Change the `IDLdoc` name to `IDLdoc.docset`
 5. Create `~/Library/Application Support/Dash/DocSets/IDLdoc/` and put yout docset there.
