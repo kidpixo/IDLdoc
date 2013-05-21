@@ -1,8 +1,8 @@
-import os
 import sqlite3 as lite
-import urllib
 import BeautifulSoup
 import glob
+# import os
+# import urllib
 
 #document to erase
 deletelist =[ "./Documents/all-dirs.html","./Documents/all-files.html",
@@ -27,7 +27,7 @@ cur.execute('DELETE FROM searchIndex')
 #insert the file in the filelist and beautify the html file
 for file in filelist:
     #get the soup ready...
-    soup = BeautifulSoup.BeautifulSoup(urllib.urlopen(os.path.abspath(file)))
+    soup = BeautifulSoup.BeautifulSoup(open(file))
     #skipping the source code
     if '-code.html' not in file :
         erase_elements=[]
